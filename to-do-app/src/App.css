@@ -1,0 +1,63 @@
+h2 {
+  text-align: center;
+  color: black;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+.loginButton{
+  color: white;
+  background-color: black;
+  font-size: 20px;
+  font-family: sans-serif;
+  border: 3px;
+  padding: 10px 100px;
+  transition: all 0.5s;
+  position: relative;
+  overflow: hidden;
+
+}
+.loginButton:before{
+  content: 'Login';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: scale(5);
+  opacity: 0;
+  transition: all 0.5s;
+}
+.loginButton:hover:before{
+  transform: scale(1);
+  opacity: 1;
+}
+.navB{
+  background-color: black;
+  font-size: 25px;
+  align-items: last baseline;
+  height: 90px;
+  display: flex;
+  font-family: sans-serif;
+}
+.navI{
+  color: white;
+  font-size: 25;
+  
+  text-decoration: none;
+}
+.mainH1{
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+.navBH{
+  background-color: black;
+}
